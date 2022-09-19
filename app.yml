@@ -1,0 +1,532 @@
+---
+uid: "b05b3d57-b64a-4bb8-a21f-4196412fd5a5"
+name: "HR Demo"
+crtDate: "2022/09/19 07:06:43"
+modDate: "2022/09/19 07:06:43"
+tenant: "noor.hajbi@fs.jo"
+version: 1
+index: 0
+organization: "Smart API Inc."
+status: "Development"
+modules:
+- uid: "2cd9d346-001c-4f7e-be67-8da69c25e4a4"
+  name: "Module1"
+  crtDate: "2022/09/19 07:06:46"
+  modDate: "2022/09/19 07:06:46"
+  version: 1
+  index: 0
+  groups:
+  - uid: "f41f73f2-13a5-45ea-aa6f-4103b6983399"
+    name: "Config"
+    crtDate: "2022/09/19 07:07:15"
+    modDate: "2022/09/19 07:07:15"
+    version: 1
+    index: 0
+    views:
+    - uid: "ad4b2c7c-1972-4bcb-bc5d-48d965a17295"
+      name: "Department"
+      crtDate: "2022/09/19 07:08:15"
+      modDate: "2022/09/19 07:08:15"
+      version: 1
+      index: 0
+      includeTemplate: false
+      includeForm: true
+      includeActions: true
+      includeTable: true
+      includeBinding: true
+      includeInMenu: true
+      entity:
+        uid: "e9de5b0e-4c7a-48c8-80c6-d9f9e5934588"
+        name: "Page1"
+        crtDate: "2022/09/19 07:08:15"
+        modDate: "2022/09/19 07:08:15"
+        version: 1
+        index: 0
+        maxRecordsCount: 0
+        viewColumnsCount: 4
+        allowDelete: false
+        allowAdd: false
+        allowUpdate: false
+        idField:
+          uid: "aa4a3f2a-dc43-4f66-b073-91ad44574ace"
+          name: "Id"
+          crtDate: "2022/09/19 07:08:15"
+          modDate: "2022/09/19 07:08:15"
+          version: 1
+          index: 0
+          primary: true
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 4
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        fields:
+        - uid: "e0a2cd8e-1e9a-48bf-9a8b-14126de9d6ce"
+          name: "Name"
+          crtDate: "2022/09/19 07:08:41"
+          modDate: "2022/09/19 07:08:41"
+          version: 1
+          index: 0
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "e0a502c3-9f25-4c84-81e7-256344485505"
+          name: "Desc"
+          crtDate: "2022/09/19 07:08:42"
+          modDate: "2022/09/19 07:08:42"
+          version: 1
+          index: 1
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: -1
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        allowManage: false
+      advanced: false
+      includeView: true
+      includeModel: true
+      includeController: true
+    - uid: "1eb7ac8a-974f-4124-8e71-80dc2794fb71"
+      name: "Degree"
+      crtDate: "2022/09/19 07:08:23"
+      modDate: "2022/09/19 07:08:23"
+      version: 1
+      index: 1
+      includeTemplate: false
+      includeForm: true
+      includeActions: true
+      includeTable: true
+      includeBinding: true
+      includeInMenu: true
+      entity:
+        uid: "8e20386c-e65c-4753-a37e-79669bda52d7"
+        name: "Page2"
+        crtDate: "2022/09/19 07:08:23"
+        modDate: "2022/09/19 07:08:23"
+        version: 1
+        index: 0
+        maxRecordsCount: 0
+        viewColumnsCount: 4
+        allowDelete: false
+        allowAdd: false
+        allowUpdate: false
+        idField:
+          uid: "441f388f-0648-412b-8d5d-4393c65c4bb7"
+          name: "Id"
+          crtDate: "2022/09/19 07:08:23"
+          modDate: "2022/09/19 07:08:23"
+          version: 1
+          index: 0
+          primary: true
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 4
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        fields:
+        - uid: "6603fa1d-c5c1-4ed0-b143-6fefce973ea4"
+          name: "Name"
+          crtDate: "2022/09/19 07:09:32"
+          modDate: "2022/09/19 07:09:32"
+          version: 1
+          index: 0
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "5cc7a8cc-9476-4bd5-b391-034e0e02a4ca"
+          name: "Desc"
+          crtDate: "2022/09/19 07:09:33"
+          modDate: "2022/09/19 07:09:33"
+          version: 1
+          index: 1
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: -1
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        allowManage: false
+      advanced: false
+      includeView: true
+      includeModel: true
+      includeController: true
+  - uid: "aa7616d0-5040-4cf1-a1bf-d75f725f2dbe"
+    name: "Management"
+    crtDate: "2022/09/19 07:07:17"
+    modDate: "2022/09/19 07:07:17"
+    version: 1
+    index: 1
+    views:
+    - uid: "da20d805-f997-4442-be85-e8b8b9eb03a2"
+      name: "Employee"
+      crtDate: "2022/09/19 07:10:13"
+      modDate: "2022/09/19 07:10:13"
+      version: 1
+      index: 0
+      includeTemplate: false
+      includeForm: true
+      includeActions: true
+      includeTable: true
+      includeBinding: true
+      includeInMenu: true
+      entity:
+        uid: "b799b842-05bd-4440-a349-72a99a1352b2"
+        name: "Page3"
+        crtDate: "2022/09/19 07:10:13"
+        modDate: "2022/09/19 07:10:13"
+        version: 1
+        index: 0
+        maxRecordsCount: 0
+        viewColumnsCount: 6
+        allowDelete: false
+        allowAdd: false
+        allowUpdate: false
+        idField:
+          uid: "17564713-089e-4637-9dc8-54b5f33a3742"
+          name: "Id"
+          crtDate: "2022/09/19 07:10:13"
+          modDate: "2022/09/19 07:10:13"
+          version: 1
+          index: 0
+          primary: true
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 4
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        fields:
+        - uid: "e1e2c381-a345-42cc-bb46-2e4f524f3bd0"
+          name: "First Name"
+          crtDate: "2022/09/19 07:10:29"
+          modDate: "2022/09/19 07:10:29"
+          version: 1
+          index: 0
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "3d67e11e-d472-4758-8eec-20df4443b1f9"
+          name: "Second Name"
+          crtDate: "2022/09/19 07:10:33"
+          modDate: "2022/09/19 07:10:33"
+          version: 1
+          index: 1
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "85bb13d0-d8a0-4e32-b708-30a3715e5e94"
+          name: "Third Name"
+          crtDate: "2022/09/19 07:10:35"
+          modDate: "2022/09/19 07:10:35"
+          version: 1
+          index: 2
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "a7894226-eab6-42f2-8524-70505cde90aa"
+          name: "Last Name"
+          crtDate: "2022/09/19 07:10:36"
+          modDate: "2022/09/19 07:10:36"
+          version: 1
+          index: 3
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "92e9e679-4883-4b1c-8ae9-0aece88054be"
+          name: "Salary"
+          crtDate: "2022/09/19 07:10:38"
+          modDate: "2022/09/19 07:10:38"
+          version: 1
+          index: 4
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: false
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 8
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "350b8e30-23cd-4617-b0db-b5d964f8b11f"
+          name: "Email"
+          crtDate: "2022/09/19 07:12:52"
+          modDate: "2022/09/19 07:12:52"
+          version: 1
+          index: 5
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: true
+          foriegnKey: false
+          precision: 0
+          scale: 0
+          dataTypeCode: 105
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "75f8af35-9621-47b4-b9ca-8ec5f5cb2e46"
+          name: "Department"
+          crtDate: "2022/09/19 07:13:10"
+          modDate: "2022/09/19 07:13:10"
+          version: 1
+          index: 6
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: false
+          foriegnKey: true
+          referenceEntityUid: "ad4b2c7c-1972-4bcb-bc5d-48d965a17295"
+          referenceFieldUid: "e0a2cd8e-1e9a-48bf-9a8b-14126de9d6ce"
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        - uid: "90df0ad5-ba24-4117-8a33-dc96ffa3aa9e"
+          name: "Degree"
+          crtDate: "2022/09/19 07:13:57"
+          modDate: "2022/09/19 07:13:57"
+          version: 1
+          index: 7
+          primary: false
+          visible: true
+          required: false
+          allowUpdate: false
+          enabled: false
+          maxLength: 250
+          width: 0
+          height: 0
+          showInTable: false
+          foriegnKey: true
+          referenceEntityUid: "1eb7ac8a-974f-4124-8e71-80dc2794fb71"
+          referenceFieldUid: "6603fa1d-c5c1-4ed0-b143-6fefce973ea4"
+          precision: 0
+          scale: 0
+          dataTypeCode: 12
+          keepLastValue: false
+          mainField: false
+          ignore: false
+          minLength: 0
+        allowManage: false
+      advanced: false
+      includeView: true
+      includeModel: true
+      includeController: true
+  - uid: "38728c84-363c-421c-b3f9-f76fe2ea05c2"
+    name: "Reports"
+    crtDate: "2022/09/19 07:07:18"
+    modDate: "2022/09/19 07:07:18"
+    version: 1
+    index: 2
+collaborators:
+- uid: "352fb23f-b9ca-4e45-98d0-1ef86ecb640e"
+  crtDate: "2022/09/19 07:06:43"
+  modDate: "2022/09/19 07:06:43"
+  version: 1
+  index: 0
+  email: "mahmoud.alzubi@fs.jo"
+  write: true
+- uid: "d92c5312-8f61-482f-a0a2-01fbdc565bf7"
+  crtDate: "2022/09/19 07:21:33"
+  modDate: "2022/09/19 07:21:33"
+  version: 1
+  index: 0
+  write: false
+hidden: false
+packageName: "com.app"
+title: "HR Demo"
+multiModule: false
+repo:
+  url: "https://github.com/NoorHajbi/hr-demo"
+  branch: "main"
+  username: "noor.hajbi"
+  password: "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"
+allowPublicAccess: false
+sessionTimeOut: 15
+showPreview: true
+manualPersistence: true
+defaultStackName: "smartcloud-web"
+defaultViewColumnCount: 4
+defaultViewTableRowCount: 20
+defaultManualId: false
+connections:
+- uid: "c5d9f8b0-49ef-4399-a4ec-c870129dec7c"
+  crtDate: "2022/09/19 07:06:43"
+  modDate: "2022/09/19 07:06:43"
+  version: 1
+  index: 0
+  databaseUrl: "mongodb+srv://noorFS:FsHrDemo@cluster0.cqjzzeg.mongodb.net/?retryWrites=true&w=majority"
+  userName: "noorFs"
+  password: "FsHrDemo"
+  empty: false
+theme: {}
+connection:
+  uid: "c5d9f8b0-49ef-4399-a4ec-c870129dec7c"
+  crtDate: "2022/09/19 07:06:43"
+  modDate: "2022/09/19 07:06:43"
+  version: 1
+  index: 0
+  databaseUrl: "mongodb+srv://noorFS:FsHrDemo@cluster0.cqjzzeg.mongodb.net/?retryWrites=true&w=majority"
+  userName: "noorFs"
+  password: "FsHrDemo"
+  empty: false
